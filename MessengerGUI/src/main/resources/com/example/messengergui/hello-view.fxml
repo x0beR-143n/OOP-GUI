@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.messengergui.HelloController">
+   <children>
+      <ImageView fitHeight="48.0" fitWidth="47.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/facebook.png" />
+         </image>
+      </ImageView>
+      <Separator layoutY="69.0" prefHeight="12.0" prefWidth="920.0" />
+      <TextField layoutX="79.0" layoutY="13.0" prefHeight="47.0" prefWidth="242.0" />
+      <ImageView fitHeight="47.0" fitWidth="65.0" layoutX="69.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/search.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="416.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/home.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-0.7" />
+         </effect></ImageView>
+      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="515.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/video.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-0.7" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="631.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/marketplace.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-0.7" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="35.0" layoutX="739.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/group.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-0.68" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="836.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/video-game.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-0.83" />
+         </effect>
+      </ImageView>
+      <Separator layoutX="304.0" layoutY="75.0" orientation="VERTICAL" prefHeight="569.0" prefWidth="7.0" />
+      <Label layoutX="9.0" layoutY="78.0" prefHeight="33.0" prefWidth="132.0" text="Đoạn chat">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="23.0" prefHeight="25.0" prefWidth="155.0" text="Tìm kiếm trên Facebook">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust brightness="0.11" contrast="-1.0" />
+         </effect>
+      </Label>
+      <ImageView fitHeight="33.0" fitWidth="23.0" layoutX="218.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/more.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="23.0" layoutX="264.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/edit.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="33.0" layoutY="130.0" prefHeight="33.0" prefWidth="242.0" />
+      <Label layoutX="64.0" layoutY="134.0" prefHeight="25.0" prefWidth="155.0" text="Tìm kiếm trên Messenger">
+         <effect>
+            <ColorAdjust brightness="0.11" contrast="-1.0" />
+         </effect>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="65.0" layoutX="23.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/search.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="-1.0" />
+         </effect>
+      </ImageView>
+      <Button layoutX="31.0" layoutY="178.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="76.0" text="Hộp thư">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="128.0" layoutY="178.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="84.0" text="Cộng đồng">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <ImageView fitHeight="64.0" fitWidth="76.0" layoutX="18.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="92.0" layoutY="245.0" text="USER 1">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Circle fill="#1fff2b" layoutX="72.0" layoutY="293.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="64.0" fitWidth="76.0" layoutX="18.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/user.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#1fff2b" layoutX="70.0" layoutY="383.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="93.0" layoutY="334.0" text="USER 2">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="308.0" layoutY="134.0" prefHeight="12.0" prefWidth="611.0" />
+      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="321.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="375.0" layoutY="83.0" text="USER 1">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Circle fill="#1fff2b" layoutX="360.0" layoutY="122.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="375.0" layoutY="112.0" text="Đang hoạt động">
+         <effect>
+            <ColorAdjust contrast="-0.64" />
+         </effect>
+      </Label>
+      <TextField layoutX="452.0" layoutY="577.0" prefHeight="35.0" prefWidth="410.0" />
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="310.0" layoutY="583.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/add.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="342.0" layoutY="583.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="377.0" layoutY="583.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/dead.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="412.0" layoutY="583.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/gif.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="838.0" layoutY="587.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/smile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="873.0" layoutY="576.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/like.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="779.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/phone-call.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="830.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/video-camera.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="33.0" layoutX="875.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/information.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
